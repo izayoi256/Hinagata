@@ -1,0 +1,17 @@
+Plugin\Hinagata\Entity\Info:
+    type: entity
+    table: plg_hinagata_info
+    repositoryClass: Plugin\Hinagata\Repository\InfoRepository
+    id:
+        id:
+            type: integer
+            nullable: false
+            unsigned: false
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: text
+            nullable: true
+    lifecycleCallbacks: {}

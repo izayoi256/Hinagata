@@ -1,0 +1,9 @@
+name: Hinagata
+code: Hinagata
+version: 0.0.1
+event: PluginEvent
+service:
+    - PluginServiceProvider
+orm.path:
+    - /Resource/doctrine
+const: {}
